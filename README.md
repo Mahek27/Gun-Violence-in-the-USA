@@ -6,3 +6,11 @@
 <p>Statistical analysis of various trends across the number of people killed or injured per year.</p>
 <p>Exploring Time Related trend / State-wise trend of Gun violence.</p>
 <p>Visualize locations that are more prone to have the event and see if it matches with the modeling algorithm result.</p>
+<b>Tools and Technologies</b>
+<p>Gathered data from Kaggle dataset and evaluated the severity of gun incidents across the United States.</p>
+<p>Used Python script to query all incidents that happened at particular date, time and places, then scraped the data and wrote it to a CSV file.</p>
+<p>Used K-means clustering to predict where gun violence occurs most based on population and density.</p>
+
+![Kmeans](https://user-images.githubusercontent.com/40185448/90277126-e40fa280-de19-11ea-8487-0f0ad7aa0383.JPG)
+
+<p>Originally our data had showed different results based on visualization and statistical analysis.  However with machine learning models we were able to get a better understanding of statewide trends.  Based on the numerical value on number of people killed and injured shows that California has more violence, and it also has more gun laws compared to other states. But we used <b>K-means clustering</b> to show that based on population density and area we conclude that <b>Illinois</b> is on top list of gun violence.</p>
